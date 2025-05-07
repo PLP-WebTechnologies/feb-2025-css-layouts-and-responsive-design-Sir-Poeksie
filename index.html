@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House of Rotunda - Coming Soon</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>House of Rotunda</h1>
+        <p class="coming-soon">Luxury Fashion - Coming Soon</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#register">Register</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>About House of Rotunda</h2>
+            <p>Blending high-end streetwear with dark luxury aesthetics.</p>
+            <video controls>
+                <source src="fashion-show.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section id="register">
+            <h2>Join Our Exclusive List</h2>
+            <form id="registration-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+
+                <label for="fashion-style">Your Fashion Style:</label>
+                <select id="fashion-style" required>
+                    <option value="goth">Neo-Goth</option>
+                    <option value="streetwear">Streetwear</option>
+                    <option value="formal">Formal</option>
+                </select>
+                
+                <button type="submit">Register</button>
+            </form>
+        </section>
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <img src="fashion-collection.jpg" alt="House of Rotunda Fashion Collection">
+        </section>
+
+        <section id="fashion-table">
+            <h2>Fashion Categories</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dark Luxury</td>
+                        <td>High-end fabrics with intricate detailing.</td>
+                    </tr>
+                    <tr>
+                        <td>Streetwear</td>
+                        <td>Urban-inspired casual wear with edge.</td>
+                    </tr>
+                    <tr>
+                        <td>Formal</td>
+                        <td>Tailored suits and modern elegance.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <p>Contact us at: <a href="mailto:mtnxazonke@gmail.com">mtnxazonke@gmail.com</a></p>
+        <button id="dark-mode-toggle">Toggle Dark Mode</button>
+    </footer>
+</body>
+</html>
